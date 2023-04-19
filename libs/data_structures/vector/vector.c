@@ -1,4 +1,5 @@
 #include "vector.h"
+//refactoring
 
 vector createVector(const size_t n) {
     vector v = (vector) {malloc(sizeof(int) * n), 0, n};

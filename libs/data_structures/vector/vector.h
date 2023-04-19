@@ -8,6 +8,8 @@
 #include <stdbool.h>
 #include <assert.h>
 
+//refactoring
+
 typedef struct vector {
     int *data; // указатель на элементы вектора
     size_t size; // размер вектора
